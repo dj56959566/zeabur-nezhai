@@ -4,3 +4,4 @@ Just a simple app.
 
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates?template=https://github.com/dj56959566/komari-zeabur)
 
+https://zeabur.com/templates?template=https://raw.githubusercontent.com/dj56959566/komari-zeabur/main/template.yaml
