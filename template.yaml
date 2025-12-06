@@ -1,0 +1,19 @@
+name: Komari Monitor
+description: Deploy Komari Server Monitoring Panel on Zeabur
+type: docker
+
+inputs:
+  - key: ADMIN_USER
+    label: Admin Username
+    default: admin
+  - key: ADMIN_PASS
+    label: Admin Password
+    default: admin123
+
+services:
+  - name: komari
+    type: docker
+    dockerfile: Dockerfile
+    ports:
+      - port: 25774
+        type: http
