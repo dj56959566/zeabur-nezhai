@@ -1,6 +1,5 @@
-FROM ghcr.io/nezhahq/nezha:v1.14.10
+FROM ghcr.io/mx-space/komari:latest
 
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+EXPOSE 8080
 
-CMD ["/entrypoint.sh"]
+CMD ["komari", "server", "--host", "0.0.0.0", "--port", "8080"]
